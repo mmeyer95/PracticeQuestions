@@ -8,4 +8,5 @@ This repository consists of a Jupyter Notebook in which I implement and test sol
 #### Section 2: Linked Lists
 #### Section 3: Stacks and Queues
 #### Section 4: Trees and Graphs
-#### Section 5: Math and Logic Puzzles
+#### Section 5: Bit Manipulation
+#### Section 6: Math and Logic Puzzles
