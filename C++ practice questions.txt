@@ -1,0 +1,35 @@
+﻿Bool isUnique(string my_string){
+        Bool uniqueness=true;
+        For (int i=0;i<my_string.size();i++){
+                For (int j=i+1;j<my_string.size();j++){
+                        If (my_string[i]==my_string[j]){
+                                uniqueness=false;
+                                Return uniqueness;
+                        }
+                }
+}
+        Return uniqueness;
+}
+
+
+//initially assuming spaces will not be considered
+Bool isPermutation(string string_a, string string_b){
+        Bool isPerm=False;
+        If (string_a.size()!=string_b.size()){
+                Return isPerm;
+        }
+        String checked=string_b;
+        For (int i=0;i<string_a.size();i++){
+                For (int j=0;i<string_b.size();j++{
+                        If (string_a[i]==string_b[j] && checked[j]!=”0”){
+                                checked[j]=”0”;
+                                break;
+                        }
+                        Else if(j==string_b.size()){
+                                Return isPerm;        //then it’s not a permutation
+                        }
+                }
+        }
+        isPerm=true;
+        Return isPerm;
+}
